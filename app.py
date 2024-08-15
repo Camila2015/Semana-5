@@ -37,6 +37,13 @@ if st.button("Presiona el boton"):
   st.write("Gracias por presionar")
 else:
   st.write("no has presionado aún")
+
+with st.sidebar:
+  st.subheader("configura la modalidad")
+  mod_radio = st.radio(
+    "Escoge la modalidad a usar"
+    ("visual", "auditiva", "haptica")
+  )
   
 
 
