@@ -41,7 +41,7 @@ else:
 with st.sidebar:
   st.subheader("configura la modalidad")
   mod_radio = st.radio(
-    "Escoge la modalidad a usar"
+    "Escoge la modalidad a usar",
     ("visual", "auditiva", "haptica")
   )
   
