@@ -5,4 +5,7 @@ st.title("Mi primera página")
 
 st.header ("Hola, como va todo")
 st.write ("diferente tipo de letra")
-image = Image.open("Interfaces cosmo guapo.jpeg")
+image = Image.open("Interfaces Cosmo guapo.jpeg")
+
+st.image(image, caption="La Leyenda")
+
