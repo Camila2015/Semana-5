@@ -9,7 +9,7 @@ image = Image.open("Cosmo guapo.jpeg")
 
 st.image(image, caption="La Leyenda")
 
-texto = st.text_input("Bom dia". "fabella")
+texto = st.text_input("Bom dia", "fabella")
 st.write("El texto escrito es", texto)
 
 st.subheader("Ahora usemos 2 columnas")
