@@ -26,8 +26,8 @@ with col2:
   st.subheader("EHablemos de lo que hacen")
   modo = st.radio("Que pueden hacer", ("volar", "cumplir deseos", "hacer que la gente se enamore"))
   if modo == "volar":
-    st.write("LSi")
-  if modo == "cumolir deseos":
+    st.write("Si")
+  if modo == "cumplir deseos":
     st.write("son muy buenos haciendo eso")
   if modo == "hacer que la gente se enamore":
      st.write("No, no pueden")
